@@ -4,19 +4,19 @@
     "email": "aartiles@gmail.com"
   },
   "name": "mbsy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ambassador API wrapper for Node.js.",
-  "homepage": "https://github.com/socialbro/mbsy",
+  "homepage": "https://github.com/GetAmbassador/mbsy.js",
   "keywords": [
     "mbsy",
     "ambassador",
     "getambassador",
     "affiliate"
-  ],  
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:socialbro/mbsy.git"
-  },  
+    "url": "git@github.com:GetAmbassador/mbsy.js.git"
+  },
   "dependencies": {
   },
   "engine": "node 0.6.x"

@@ -12,12 +12,12 @@ Node.js wrapper for the [Ambassador](https://getambassador.com) API.
     var msby = require('mbsy').createClient(<Company_Username>, <API_Key>);
 
 	/**
-	 * Retrieves details about a given ambassador including their active share links. 
+	 * Retrieves details about a given ambassador including their active share links.
 	 * Automatically creates the requested ambassador if they do not exist yet.
-	 * @param  {Object} params as described on https://getambassador.com/#v2_method_ambassador_get
+	 * @param  {Object} params as described on https://getambassador.com/api#v2_method_ambassador_get
 	 * @param  {Function} cb The callback function with the results
 	 * @return {void}
-	 */	
+	 */
     msby.Ambassador.get(
         {
             email: 'ambassador@example.com',
@@ -30,10 +30,10 @@ Node.js wrapper for the [Ambassador](https://getambassador.com) API.
 
 	/**
 	 * Records an instance of a campaign referral event.
-	 * @param  {Object} params as described on https://getambassador.com/#v2_method_event_record
+	 * @param  {Object} params as described on https://getambassador.com/api#v2_method_event_record
 	 * @param  {Function} cb The callback function with the results
 	 * @return {void}
-	 */		
+	 */
     msby.Event.record(
         {
             email: 'ambassador@example.com',
@@ -53,7 +53,7 @@ Node.js wrapper for the [Ambassador](https://getambassador.com) API.
 	 * @param  {Object} method params
 	 * @param  {Function} cb The callback function with the results
 	 * @return {void}
-	 */	
+	 */
     msby.Custom.get(
     	'shortcode/get',
         {
